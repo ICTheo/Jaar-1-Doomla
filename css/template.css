@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*header*/
+
+.wrapper{
+	font-family: PMD;
+}
+
+.header{
+	background: url('pixel-bluez.jpg');
+	background-size: 250px;
+}
+
+.pagename{
+	color: white;
+	text-align: center;
+	font-size: 90px;
+	text-shadow : 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+/*menu*/
+
+ul{
+	position: relative;
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	padding: 5px;
+	padding-left: 2x;
+	padding-right: 2px;
+	width: 90px;
+}
+
+ul li a{
+	color: white;
+	font-size: 22px;
+	text-shadow : 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+ul li:hover{
+	border: solid 1px black;
+	background-color: rgba(255, 255, 255, 0.2)
+}
+
+.active{
+	border: solid 1px black;
+	background-color: rgba(0, 0, 0, 0.6)
+}
+
+.menu ul li{
+	position: relative;
+}
+
+.submenu{
+	position: absolute;
+	top: 31px;
+	display: none;
+}
+
+.menu ul li:hover .submenu
+{
+	display: block;
+	z-index: 2;
+}
+
+
+body{
+	background-color: #779ECB;
+}
+
+.content{
+	width: 750px;
+	margin: auto;
+	text-align: center;
+	background-color: #77DD77;
+	padding-bottom: 50px;
+}
+
+.component{
+	border: 5px inset #CFCFC4;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #CFCFC4;
+}
+
+
+img{
+	position: relative;
+}
+
+.img{
+	margin-top: 0;
+	margin-left: 75px;
+	position: absolute;
+	z-index: 1;
+}
+
+a{
+	padding: 5px;
+	color: black;
+	text-decoration: none
+}
+
+/*contact info*/
+
+.rightside{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: rgba(139, 119, 203, 0.6);
+	border: solid 5px rgba(139, 119, 203, 1);
+	width: 150px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+/*footer*/
+
+.footer{
+	background-color: #03C03C;
+	color: white;
+	text-align: center;
+	height: 40px;
+	margin-bottom: -20px;
+}
+
+.footer p{
+	padding-top: 10px;
+	margin-bottom: 0;
+}

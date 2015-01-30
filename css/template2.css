@@ -1,0 +1,123 @@
+body{
+	background-image: url('ocean.jpg');
+	font-family: comic neue;
+}
+
+.wrapper{
+	margin: auto;
+}
+
+.content{
+	width: 750px;
+	margin: auto;
+	text-align: center;
+	background-color: #77DD77;
+	padding-bottom: 50px;
+	border-radius: 25px;
+}
+
+.component{
+	border: 5px inset #CFCFC4;
+	border-radius: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #CFCFC4;
+}
+
+/* Menu */
+
+.menu{
+	height: 100px;
+}
+
+.menu ul li{
+	position: relative;
+}
+
+ul{
+	padding-top: 17px;
+}
+
+ul li{
+	display: inline;
+	background-image: url('images.jpg');
+	border: black;
+	border-radius: 25px;
+	padding: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.active{
+	background-color: rgba(15, 98, 122, 0.9);
+	border: 1px solid rgba(16, 82, 104, 0.9);
+}
+
+.submenu{
+	position: absolute;
+	top: 15px;
+	left: 40px;
+	display: none;
+}
+
+.menu ul li:hover .submenu
+{
+	display: block;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: solid black 1px;
+	border-radius: 25px;
+	z-index: 2;
+}
+
+.header{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0;
+	border: solid black 2px;
+	border-radius: 25px;
+}
+
+.pagename{
+	margin-top: 40px;
+	margin-left: 75px;
+	position: absolute;
+	z-index: 1;
+}
+
+img{
+	position: relative;
+}
+
+.img{
+	margin-top: 0;
+	margin-left: 75px;
+	position: absolute;
+	z-index: 1;
+}
+
+a{
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.rightside{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: rgba(139, 119, 203, 0.6);
+	border: solid 5px rgba(139, 119, 203, 1);
+	width: 150px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+.footer{
+	background-color: #03C03C;
+	color: white;
+	text-align: center;
+}
+
+.footer p{
+	margin-bottom: 0;
+}

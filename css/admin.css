@@ -1,0 +1,33 @@
+div{
+	margin : auto;
+}
+
+h1{
+	text-align : center;
+}
+
+table{
+	margin : 40px auto;
+	border-collapse : collapse;
+}
+
+th{
+	border : black solid 2px;
+	padding-left : 15px;
+	padding-right :15px;
+	text-align : center;
+}
+
+td{
+	border : black solid 2px;
+	padding-left : 15px;
+	padding-right :15px;
+}
+
+.derp{
+	border-right: none;
+}
+
+.pred{
+	border-left: none;
+}
